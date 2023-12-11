@@ -1,5 +1,10 @@
 # SD500-Data-Structure-Practice
-Create a TypeScript workspace, and implement CRUD operations for following data structures.
+Create a TypeScript workspace, and implement CRUD operations for following data structures. All functions return a boolean, except those who read the data. 
+  
+To gain deeper understanding to the course concepts, consider solving the questions with:
+* regular function vs encapsulate each data as a private member in a class and provide public methods to read and manipulate the data.
+* convert the functions to run asyncronously using Promise.
+* perform the changes with mutation vs. in immutable way.
 
 ```typescript
 type Item = { id: string, title: string; };
@@ -52,6 +57,4 @@ const data5: Course = {};
 const data6: Course[] = [];
 
 ```
-When you finish, change a few functions to:
-* run asyncronously using Promise.
-* perform the changes in immutable way.
+
