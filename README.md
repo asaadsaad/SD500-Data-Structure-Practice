@@ -42,7 +42,7 @@ const data3: Data3 = {};
 // read student full name by student_id, and group id (if group id exist, and student_id exist)
 type Student = { student_id: string, firstname: string; lastname: string; };
 type Group = { [id: string]: Student[]; };
-const data4: Course = {};
+const data4: Group = {};
 
 // data structure 5
 // add student in course (if course id exist, and student_id does not exist)
